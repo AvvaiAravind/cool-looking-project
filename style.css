@@ -1,0 +1,33 @@
+html {
+  font-family: sans-serif;
+}
+
+/* Your CSS below here */
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div {
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+
+  border: 1px solid rgb(110, 2, 2);
+  box-shadow: 5px 5px 5px black, inset 3px 3px 4px 2px whitesmoke;
+  background-color: red;
+  color: whitesmoke;
+  text-shadow: 3px 3px 5px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  /* background-image: linear-gradient(
+    to bottom right,
+    rgb(0 0 0),
+    rgb(0 0 0 / 0.2) 30%
+  ); */
+  /* box-shadow: 3px 3px 15px 2px black,
+    inset 3px 3px 3px 3px rgb(255 255 255 / 0.5), inset -3px -3px; */
+}
